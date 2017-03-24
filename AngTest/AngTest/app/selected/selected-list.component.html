@@ -1,0 +1,9 @@
+﻿<ul>
+    <li *ngFor="let character of characters" (click)="select(character)">
+        {{character.id}} - {{character.name}}
+    </li>
+</ul>
+
+<my-select *ngIf="selectedCharacter" [character]="selectedCharacter" [otherApproachCharacter]="selectedCharacter">
+    
+</my-select>

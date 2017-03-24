@@ -1,0 +1,9 @@
+﻿<h2>This is my vehicle list</h2>
+
+<div *ngFor="let vehicle of vehicles">
+    <h3>{{vehicle.id}} - {{vehicle.name}}</h3>
+</div>
+
+<div *ngIf="vehicles.length">
+    <h3>You have {{vehicles.length}} vehicles</h3>
+</div>

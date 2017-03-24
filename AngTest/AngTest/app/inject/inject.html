@@ -1,0 +1,9 @@
+﻿<h2>This is my vehicle list</h2>
+
+<div *ngFor="let vehicle of injectedList">
+    <h3>{{vehicle.id}} - {{vehicle.name}}</h3>
+</div>
+
+<div *ngIf="injectedList.length">
+    <h3>You have {{injectedList.length}} vehicles</h3>
+</div>

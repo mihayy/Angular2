@@ -1,0 +1,17 @@
+﻿<div>
+    <h3>{{title}}</h3>
+    <div>
+        <b>2 Way Binding</b>
+        <input [(ngModel)]="story.name"/>
+    </div>
+    <br/>
+    <div>
+        <b>1 Way Binding</b>
+        <input [value]="story.name"/>
+    </div>
+    <br/>
+    <div>
+        <b>Output (Interpolation):</b> {{story.name}}
+    </div>
+    <button (click)="changeName()" (mouseover)="log('mouseover')">Jedi Rules</button>
+</div>

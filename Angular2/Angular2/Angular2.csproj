@@ -75,10 +75,15 @@
     <Content Include="app\binding\binding.html" />
     <Content Include="app\for\for.html" />
     <Content Include="app\inject\inject.html" />
+    <Content Include="app\InputOutput\character.component.html" />
+    <Content Include="app\InputOutput\characters.component.css" />
+    <Content Include="app\InputOutput\characters.component.html" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="app\selected\selected.component.html" />
     <Content Include="app\selected\selected-list.component.html" />
+    <Content Include="api\characters.json" />
+    <Content Include="api\vehicles.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -105,6 +110,9 @@
     <TypeScriptCompile Include="app\binding\binding.component.ts" />
     <TypeScriptCompile Include="app\inject\inject.component.ts" />
     <TypeScriptCompile Include="app\inject\inject.service.ts" />
+    <TypeScriptCompile Include="app\InputOutput\character.service.ts" />
+    <TypeScriptCompile Include="app\InputOutput\character.component.ts" />
+    <TypeScriptCompile Include="app\InputOutput\characters.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
     <TypeScriptCompile Include="app\for\for.component.ts" />
     <TypeScriptCompile Include="app\selected\character.ts" />

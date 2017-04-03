@@ -10,12 +10,17 @@ var AppComponent = (function () {
     function AppComponent() {
         this.name = "Angular";
     }
+    AppComponent.prototype.changed = function (changedCharacter) {
+        if (changedCharacter) {
+            console.log("Event Emitter said you selected " + changedCharacter.name);
+        }
+    };
     return AppComponent;
 }());
 AppComponent = __decorate([
     core_1.Component({
         selector: "my-app",
-        template: "<h1>Hello {{name}}</h1> \n             <hr/>\n             <for></for>\n             <hr/>\n             <binding></binding>\n             <hr/>\n             <inject></inject>\n             <my-select-list></my-select-list>\n"
+        template: "<h1>Hello {{name}}</h1> \n             <hr/>\n             <for></for>\n             <hr/>\n             <binding></binding>\n             <hr/>\n             <inject></inject>\n             <my-select-list></my-select-list>\n             <story-characters [storyId]=\"7\" (changed)=changed($event)></story-characters>\n"
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;

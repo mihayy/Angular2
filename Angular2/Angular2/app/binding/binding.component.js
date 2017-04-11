@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require("@angular/core");
 var Binding = (function () {
     function Binding() {
+        this.computedStyle = "red";
         this.title = "Angular 2 Two-Way Binding";
         this.story = {
             name: "The Empire Strikes Back"

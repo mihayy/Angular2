@@ -1,5 +1,4 @@
 import { Component } from "@angular/core";
-import { CharactersComponent } from "./InputOutput/characters.component";
 
 @Component({
   selector: "my-app",

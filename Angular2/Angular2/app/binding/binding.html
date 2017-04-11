@@ -1,13 +1,13 @@
 ﻿<div>
-    <h3>{{title}}</h3>
+    <h3 [style.font]="'#EE0'">{{title}}</h3>
     <div>
         <b>2 Way Binding</b>
-        <input [(ngModel)]="story.name"/>
+        <input [(ngModel)]="story.name" [style.background]="computedStyle" (mouseover) = "computedStyle = 'green'" (mouseleave) = "computedStyle = 'red'"/>
     </div>
     <br/>
     <div>
         <b>1 Way Binding</b>
-        <input [value]="story.name"/>
+        <input [value]="story.name" [style.background]="'green'"/>
     </div>
     <br/>
     <div>

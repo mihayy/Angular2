@@ -5,6 +5,7 @@
     templateUrl: "./app/binding/binding.html"
 })
 export class Binding {
+    computedStyle = "red";
     title = "Angular 2 Two-Way Binding";
     story = {
         name: "The Empire Strikes Back"

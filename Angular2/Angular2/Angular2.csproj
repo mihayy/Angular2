@@ -110,7 +110,7 @@
     <TypeScriptCompile Include="app\app.module.ts" />
     <TypeScriptCompile Include="app\binding\binding.component.ts" />
     <TypeScriptCompile Include="app\http\vehicle.service.ts" />
-    <TypeScriptCompile Include="app\http\vehicle.component.ts" />
+    <TypeScriptCompile Include="app\http\vehicle-list.component.ts" />
     <TypeScriptCompile Include="app\inject\inject.component.ts" />
     <TypeScriptCompile Include="app\inject\inject.service.ts" />
     <TypeScriptCompile Include="app\InputOutput\character.service.ts" />

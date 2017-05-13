@@ -13,7 +13,7 @@ import { SelectListComponent } from "./selected/selected-list.component";
 import { SelectComponent } from "./selected/selected.component";
 import { CharacterComponent } from "./InputOutput/character.component";
 import { CharactersComponent } from "./InputOutput/characters.component";
-import { VehicleListComponent } from "./http/vehicle.component";
+import { VehicleListComponent } from "./http/vehicle-list.component";
 
 
 @NgModule({

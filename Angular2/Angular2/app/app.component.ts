@@ -11,6 +11,7 @@ import { Component } from "@angular/core";
              <inject></inject>
              <my-select-list></my-select-list>
              <story-characters [storyId]="7" (changed)=changed($event)></story-characters>
+             <my-vehicle-list></my-vehicle-list>
 `
 })
 export class AppComponent {

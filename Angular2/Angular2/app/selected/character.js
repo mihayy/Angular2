@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Character = (function () {
     function Character(id, name) {
         this.id = id;

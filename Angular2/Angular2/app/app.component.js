@@ -5,6 +5,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
@@ -20,7 +21,7 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     core_1.Component({
         selector: "my-app",
-        template: "<h1>Hello {{name}}</h1> \n             <hr/>\n             <for></for>\n             <hr/>\n             <binding></binding>\n             <hr/>\n             <inject></inject>\n             <my-select-list></my-select-list>\n             <story-characters [storyId]=\"7\" (changed)=changed($event)></story-characters>\n"
+        template: "<h1>Hello {{name}}</h1> \n             <hr/>\n             <for></for>\n             <hr/>\n             <binding></binding>\n             <hr/>\n             <inject></inject>\n             <my-select-list></my-select-list>\n             <story-characters [storyId]=\"7\" (changed)=changed($event)></story-characters>\n             <my-vehicle-list></my-vehicle-list>\n"
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;

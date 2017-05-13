@@ -74,6 +74,7 @@
   <ItemGroup>
     <Content Include="app\binding\binding.html" />
     <Content Include="app\for\for.html" />
+    <Content Include="app\http\vehicle-list.component.html" />
     <Content Include="app\inject\inject.html" />
     <Content Include="app\InputOutput\character.component.html" />
     <Content Include="app\InputOutput\characters.component.css" />
@@ -108,6 +109,8 @@
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
     <TypeScriptCompile Include="app\binding\binding.component.ts" />
+    <TypeScriptCompile Include="app\http\vehicle.service.ts" />
+    <TypeScriptCompile Include="app\http\vehicle.component.ts" />
     <TypeScriptCompile Include="app\inject\inject.component.ts" />
     <TypeScriptCompile Include="app\inject\inject.service.ts" />
     <TypeScriptCompile Include="app\InputOutput\character.service.ts" />
@@ -115,6 +118,7 @@
     <TypeScriptCompile Include="app\InputOutput\characters.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
     <TypeScriptCompile Include="app\for\for.component.ts" />
+    <TypeScriptCompile Include="app\rxjs-extensions.ts" />
     <TypeScriptCompile Include="app\selected\character.ts" />
     <TypeScriptCompile Include="app\selected\selected-list.component.ts" />
     <TypeScriptCompile Include="app\selected\selected.component.ts" />

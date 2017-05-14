@@ -21,6 +21,7 @@ var selected_component_1 = require("./selected/selected.component");
 var character_component_1 = require("./InputOutput/character.component");
 var characters_component_1 = require("./InputOutput/characters.component");
 var vehicle_list_component_1 = require("./http/vehicle-list.component");
+var vehicle_list_component_2 = require("./asyncPipe/vehicle-list.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -29,7 +30,17 @@ var AppModule = (function () {
 AppModule = __decorate([
     core_1.NgModule({
         imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, http_1.HttpModule],
-        declarations: [app_component_1.AppComponent, for_component_1.Vehicle, vehicle_list_component_1.VehicleListComponent, binding_component_1.Binding, inject_component_1.InjectComponent, selected_list_component_1.SelectListComponent, selected_component_1.SelectComponent, character_component_1.CharacterComponent, characters_component_1.CharactersComponent],
+        declarations: [
+            app_component_1.AppComponent,
+            for_component_1.Vehicle,
+            vehicle_list_component_1.VehicleListComponent,
+            binding_component_1.Binding, inject_component_1.InjectComponent,
+            selected_list_component_1.SelectListComponent,
+            selected_component_1.SelectComponent,
+            character_component_1.CharacterComponent,
+            characters_component_1.CharactersComponent,
+            vehicle_list_component_2.AsyncVehicleListComponent
+        ],
         providers: [inject_service_1.InjectService],
         bootstrap: [app_component_1.AppComponent] //starting component, root component
     })

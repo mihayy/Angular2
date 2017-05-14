@@ -14,11 +14,21 @@ import { SelectComponent } from "./selected/selected.component";
 import { CharacterComponent } from "./InputOutput/character.component";
 import { CharactersComponent } from "./InputOutput/characters.component";
 import { VehicleListComponent } from "./http/vehicle-list.component";
-
+import { AsyncVehicleListComponent } from "./asyncPipe/vehicle-list.component";
 
 @NgModule({
     imports: [BrowserModule, FormsModule, HttpModule],  //modules we depend on
-    declarations: [AppComponent, Vehicle, VehicleListComponent, Binding, InjectComponent, SelectListComponent, SelectComponent, CharacterComponent, CharactersComponent], //declare components to use in our app
+    declarations: [
+        AppComponent,
+        Vehicle,
+        VehicleListComponent,
+        Binding, InjectComponent,
+        SelectListComponent,
+        SelectComponent,
+        CharacterComponent,
+        CharactersComponent,
+        AsyncVehicleListComponent
+    ], //declare components to use in our app
     providers: [InjectService], //provide services to app root injector
     bootstrap: [AppComponent] //starting component, root component
 })

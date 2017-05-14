@@ -12,6 +12,7 @@ import { Component } from "@angular/core";
              <my-select-list></my-select-list>
              <story-characters [storyId]="7" (changed)=changed($event)></story-characters>
              <my-vehicle-list></my-vehicle-list>
+             <my-vehicle-list-async></my-vehicle-list-async>
 `
 })
 export class AppComponent {

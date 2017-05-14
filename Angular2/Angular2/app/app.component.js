@@ -21,7 +21,7 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     core_1.Component({
         selector: "my-app",
-        template: "<h1>Hello {{name}}</h1> \n             <hr/>\n             <for></for>\n             <hr/>\n             <binding></binding>\n             <hr/>\n             <inject></inject>\n             <my-select-list></my-select-list>\n             <story-characters [storyId]=\"7\" (changed)=changed($event)></story-characters>\n             <my-vehicle-list></my-vehicle-list>\n"
+        template: "<h1>Hello {{name}}</h1> \n             <hr/>\n             <for></for>\n             <hr/>\n             <binding></binding>\n             <hr/>\n             <inject></inject>\n             <my-select-list></my-select-list>\n             <story-characters [storyId]=\"7\" (changed)=changed($event)></story-characters>\n             <my-vehicle-list></my-vehicle-list>\n             <my-vehicle-list-async></my-vehicle-list-async>\n"
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;

@@ -9,22 +9,20 @@ import { Vehicle } from "./for/for.component";
 import { Binding } from "./binding/binding.component";
 import { InjectComponent } from "./inject/inject.component";
 import { InjectService } from "./inject/inject.service";
-import { SelectListComponent } from "./selected/selected-list.component";
-import { SelectComponent } from "./selected/selected.component";
 import { CharacterComponent } from "./InputOutput/character.component";
 import { CharactersComponent } from "./InputOutput/characters.component";
-import { VehicleListComponent } from "./http/vehicle-list.component";
 import { AsyncVehicleListComponent } from "./asyncPipe/vehicle-list.component";
 
+import { AppRoutingModule, routableComponents } from "./app-routing.module";
+
 @NgModule({
-    imports: [BrowserModule, FormsModule, HttpModule],  //modules we depend on
+    imports: [BrowserModule, FormsModule, HttpModule, AppRoutingModule],  //modules we depend on
     declarations: [
+        routableComponents,
         AppComponent,
         Vehicle,
-        VehicleListComponent,
-        Binding, InjectComponent,
-        SelectListComponent,
-        SelectComponent,
+        Binding,
+        InjectComponent,
         CharacterComponent,
         CharactersComponent,
         AsyncVehicleListComponent

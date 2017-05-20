@@ -81,6 +81,9 @@
     <Content Include="app\InputOutput\character.component.html" />
     <Content Include="app\InputOutput\characters.component.css" />
     <Content Include="app\InputOutput\characters.component.html" />
+    <Content Include="app\routingExample\character.component.html" />
+    <Content Include="app\routingExample\characters.component.css" />
+    <Content Include="app\routingExample\characters.component.html" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="app\selected\selected.component.html" />
@@ -114,6 +117,7 @@
     <TypeScriptCompile Include="app\asyncPipe\vehicle-list.component.ts" />
     <TypeScriptCompile Include="app\asyncPipe\vehicle.service.ts" />
     <TypeScriptCompile Include="app\binding\binding.component.ts" />
+    <TypeScriptCompile Include="app\config.ts" />
     <TypeScriptCompile Include="app\http\vehicle.service.ts" />
     <TypeScriptCompile Include="app\http\vehicle-list.component.ts" />
     <TypeScriptCompile Include="app\inject\inject.component.ts" />
@@ -123,6 +127,9 @@
     <TypeScriptCompile Include="app\InputOutput\characters.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
     <TypeScriptCompile Include="app\for\for.component.ts" />
+    <TypeScriptCompile Include="app\routingExample\character.component.ts" />
+    <TypeScriptCompile Include="app\routingExample\character.service.ts" />
+    <TypeScriptCompile Include="app\routingExample\characters.component.ts" />
     <TypeScriptCompile Include="app\rxjs-extensions.ts" />
     <TypeScriptCompile Include="app\selected\character.ts" />
     <TypeScriptCompile Include="app\selected\selected-list.component.ts" />

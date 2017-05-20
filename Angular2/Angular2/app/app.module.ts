@@ -13,6 +13,7 @@ import { CharacterComponent } from "./InputOutput/character.component";
 import { CharactersComponent } from "./InputOutput/characters.component";
 import { AsyncVehicleListComponent } from "./asyncPipe/vehicle-list.component";
 
+
 import { AppRoutingModule, routableComponents } from "./app-routing.module";
 
 @NgModule({

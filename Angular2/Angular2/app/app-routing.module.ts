@@ -5,11 +5,15 @@ import {SelectListComponent} from "./selected/selected-list.component";
 import {SelectComponent} from "./selected/selected.component";
 import {VehicleListComponent} from "./http/vehicle-list.component";
 
+import {RoutingCharactersComponent} from "./routingExample/characters.component";
+import {RoutingCharacterComponent} from "./routingExample/character.component";
+
 const routes: Routes = [
     { path: '', pathMatch: 'full', redirectTo: 'characters' },
     { path: 'characters', component: SelectListComponent },
-    { path: 'characters/:id', component: SelectComponent },
     { path: 'vehicles', component: VehicleListComponent },
+    { path: 'routingCharacters', component: RoutingCharactersComponent },
+    { path: 'routingCharacters/:id', component: RoutingCharacterComponent },
 ];
 
 @NgModule({
@@ -21,5 +25,7 @@ export class AppRoutingModule { }
 export const routableComponents = [
     SelectComponent,
     SelectListComponent,
-    VehicleListComponent
+    VehicleListComponent,
+    RoutingCharactersComponent,
+    RoutingCharacterComponent
 ];

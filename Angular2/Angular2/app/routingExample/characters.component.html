@@ -1,0 +1,11 @@
+﻿<hr/>
+<h2>Routing characters component</h2>
+<article>
+    <ul class="characters">
+        <li *ngFor="let character of characters | async">
+            <a href="" [routerLink]="['/routingCharacters', character.id]">
+                {{character.id}}. {{character.name}}
+            </a>
+        </li>
+    </ul>
+</article>
